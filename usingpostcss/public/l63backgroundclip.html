@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>L63 Background Clip</title>
+        <link href="./tailwindcss.css" rel="stylesheet" type="text/css"/>
+        <style type="text/css">
+
+        </style>
+    </head>
+    <body>
+        <h1>This is tailwindcss</h1>
+
+        <div class="w-40 h-40 bg-violet-900 p-5 border-8 border-dashed border-yellow-500 my-3 flex justify-center items-center bg-clip-border">bg-clip-border</div>
+
+        <div class="w-40 h-40 bg-violet-900 p-5 border-8 border-dashed border-yellow-500 my-3 flex justify-center items-center bg-clip-padding">bg-clip-padding</div>
+
+        <div class="w-40 h-40 bg-violet-900 p-5 border-8 border-dashed border-yellow-500 my-3 flex justify-center items-center bg-clip-content">bg-clip-content</div>
+
+        <div class="w-40 h-40 bg-violet-900 p-5 border-8 border-dashed border-yellow-500 my-3 flex justify-center items-center bg-clip-text text-transparent">bg-clip-text</div>
+    
+        <hr class="my-5" />
+
+        <div class="text-5xl text-transparent bg-clip-text font-extrabold bg-gradient-to-r from-blue-500 to-pink-500">
+            <p >Save Myanmar</p>
+            <p>Pray Myanmar</p>
+            <span>Fight to Japu </span> <span> Attach to Japu </span>
+        </div>
+    
+        <hr class="my-5">
+
+        <div class="text-6xl font-extrabold">
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Hello Thailand</span>
+            <br />
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-black to-violet-500">Hello Srilanka</span>
+        </div>
+
+    </body>
+</html>
+
+<!--
+bg-clip-border (background-clip: border-box;)
+bg-clip-padding (background-clip: padding-box;)
+bg-clip-content (background-clip: content-box;)
+bg-clip-text (background-clip: text;)
+-->
